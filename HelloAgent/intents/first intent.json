@@ -1,0 +1,31 @@
+{
+  "id": "4f6c67b9-14ce-4070-8f1b-446000005b1f",
+  "name": "first intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hi i\u0027m your hello world chat-bot!",
+            "Hello I\u0027m your first bot."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514575983,
+  "fallbackIntent": false,
+  "events": []
+}
