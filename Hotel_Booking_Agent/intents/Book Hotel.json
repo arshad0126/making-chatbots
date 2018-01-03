@@ -1,0 +1,100 @@
+{
+  "id": "ec816ca5-6617-4a09-8da4-a8eb0e5ac530",
+  "name": "Book Hotel",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookHotel",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1377378d-3ef8-417d-8c5e-bcf68ca9931c",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Book room for how many persons?"
+            },
+            {
+              "lang": "en",
+              "value": "How many peoples you are."
+            },
+            {
+              "lang": "en",
+              "value": "For how many people you want to book hotel?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "b90ee349-1d0f-42c6-a63d-d84a93fac5e7",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your name?"
+            },
+            {
+              "lang": "en",
+              "value": "Let me know your good name?"
+            },
+            {
+              "lang": "en",
+              "value": "Your good name please."
+            },
+            {
+              "lang": "en",
+              "value": "What should I call you?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "7580059a-4b60-49a2-85a0-0826500f1a47",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell me your email id."
+            },
+            {
+              "lang": "en",
+              "value": "What is your email id?"
+            },
+            {
+              "lang": "en",
+              "value": "Tell me your email id over which i can mail you."
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Your hotel booking request is forwarded."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514618411,
+  "fallbackIntent": false,
+  "events": []
+}

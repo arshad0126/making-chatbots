@@ -1,0 +1,28 @@
+{
+  "id": "fccc746f-b4bd-43ad-b088-f44ceafe6d7a",
+  "name": "Show all Bookings",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514618430,
+  "fallbackIntent": false,
+  "events": []
+}
