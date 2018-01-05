@@ -1,0 +1,161 @@
+[
+  {
+    "id": "36708fee-58f4-48b2-b1f0-73be637ea3a6",
+    "data": [
+      {
+        "text": "I would like to book a ",
+        "userDefined": false
+      },
+      {
+        "text": "VIP",
+        "alias": "RoomType",
+        "meta": "@RoomType",
+        "userDefined": false
+      },
+      {
+        "text": " room.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "fc6c3990-0356-4316-b747-3dee717be4d7",
+    "data": [
+      {
+        "text": "my email id is ",
+        "userDefined": false
+      },
+      {
+        "text": "abc@abc.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "fde6649f-eee4-49ae-b38e-c58af43a6402",
+    "data": [
+      {
+        "text": "book hotels for ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " persons",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "fb8ad387-1341-454b-93b8-fcb6175d5848",
+    "data": [
+      {
+        "text": "my name is ",
+        "userDefined": false
+      },
+      {
+        "text": "Ajmal",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d254a271-9ffe-4532-8fff-1be1eccb8857",
+    "data": [
+      {
+        "text": "My name is ",
+        "userDefined": false
+      },
+      {
+        "text": "Arshad",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6a42ca0b-8b1a-49ef-9b1c-b617001e2aa4",
+    "data": [
+      {
+        "text": "I want to reserve hotel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "35ad9a75-4e12-4e4d-9381-f87f43669ba8",
+    "data": [
+      {
+        "text": "I need room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "bd0e88c1-893c-4c13-b448-03b6dd064879",
+    "data": [
+      {
+        "text": "I want to book a room.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "10a50095-65bd-46cd-8482-a70dedb98722",
+    "data": [
+      {
+        "text": "Book a hotel room for me.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "69c56d87-4216-48cc-b2c6-48eebb70f552",
+    "data": [
+      {
+        "text": "Rooms for stay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3daa01c1-c5b4-4260-a04e-fae72ffc7936",
+    "data": [
+      {
+        "text": "Book a hotel room for me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]
